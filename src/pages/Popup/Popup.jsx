@@ -26,9 +26,7 @@ import {
 import moment from 'moment'
 import forge from 'node-forge'
 import copy from "fast-copy";
-import secrets from 'secrets';
 
-ApiCall({ key: secrets.key });
 moment.locale("ko");
 
 const theme = createMuiTheme({
