@@ -11,7 +11,10 @@ function __str2ab(str) {
     }
     return buf;
 }
+
+console.log(1)
 if(window.location.hostname==="longtermcare.or.kr"){
+    console.log(2)
     let params = queryString.parse(window.location.search)
     if(params["fce"]){
         chrome.storage.sync.get("longterm", function (value) {
@@ -84,13 +87,17 @@ if(window.location.hostname==="longtermcare.or.kr"){
                 clearTimeout(reload)
             }
         });
+        window.addEventListener('click', function(){
+            if(reload){
+                clearTimeout(reload)
+            }
+        });
     }
 }
 
 function reloads(){
     reload = setTimeout(function(){
         window.location.reload(true)
-        let elm = document.getElementById("mainframe.VFrameSet.frameTop.form.sta_userInfo:text")
         reloads()
     }, 10*60*1000)
 }
