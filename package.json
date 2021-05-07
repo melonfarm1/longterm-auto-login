@@ -1,7 +1,7 @@
 {
-  "name": "longterm auto login",
-  "version": "0.1.1",
-  "description": "비효율적인 롱텀 로그인 멈춰!",
+  "name": "longterm-auto-login",
+  "version": "0.1.2",
+  "description": "lal",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -20,9 +20,10 @@
     "@types/react": "^17.0.2",
     "@types/react-dom": "^17.0.1",
     "babel": "^6.23.0",
+    "fast-copy": "^2.1.1",
     "filereader": "^0.10.3",
     "fs": "^0.0.1-security",
-    "iconv": "^3.0.0",
+    "load-json-file": "^2.0.0",
     "moment": "^2.29.1",
     "node-forge": "^0.10.0",
     "query-string": "^7.0.0",
