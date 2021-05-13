@@ -78,7 +78,7 @@ if(window.location.hostname==="longtermcare.or.kr"){
         });*/
         //if self.DRIVERS[cid].current_url.find("//longtermcare.or.kr/npbs/auth/login/loginForm.web?")==-1 and (self.DRIVERS[cid].current_url.find("//longtermcare.or.kr/npbs/xui/manage.html")>=0 or self.DRIVERS[cid].current_url.find("//longtermcare.or.kr/npbs/xui/index.html")>=0):
     }else if(window.location.href.indexOf("//longtermcare.or.kr/npbs/auth/login/loginForm.web")===-1 && (window.location.href.indexOf("//longtermcare.or.kr/npbs/xui/manage.html")>=0 || window.location.href.indexOf("//longtermcare.or.kr/npbs/xui/index.html")>=0)){
-        reloads()
+        /*reloads()
         window.addEventListener('blur', function(){
             reloads()
         });
@@ -91,7 +91,7 @@ if(window.location.hostname==="longtermcare.or.kr"){
             if(reload){
                 clearTimeout(reload)
             }
-        });
+        });*/
     }
 }
 

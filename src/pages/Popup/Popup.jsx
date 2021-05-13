@@ -367,7 +367,7 @@ class Popup extends React.Component {
                         <CardHeader
                             style={{"padding":"0px", "width":"100%"}}
                             title={"롱텀 자동로그인"}
-                            subheader={"0.1.2"}
+                            subheader={"0.1.4"}
                             action={
                                 <IconButton >
                                     <CloseOutlined />

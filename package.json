@@ -1,8 +1,8 @@
 {
   "name": "longterm-auto-login",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "description": "lal",
-  "license": "MIT",
+  "license": "melonfarm1",
   "repository": {
     "type": "git",
     "url": "https://github.com/melonfarm1/longterm-auto-login"
